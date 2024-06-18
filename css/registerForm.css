@@ -1,0 +1,134 @@
+.form-container > div + div {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.form-container {
+    /*! position: relative; */
+    /*! max-width: 450px; */
+}
+
+.reg-form__preloader {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-form__preloader-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 50px;
+}
+
+.reg-form__preloader.hidden {
+    display: none;
+}
+
+.iti__flag-box, .iti__country-name {
+    color: #333;
+}
+
+.form_group--name,
+.form_group--email,
+.form-group {
+    position: relative;
+}
+
+form.form-container input {
+    /*! display: block; */
+    /*! width: 100%; */
+    /*! padding: 12px 0px 12px 30px; */
+    /*! border: solid 1.2px var(--color-bg-3, #b1b5be); */
+    /*! color: #fff; */
+    /*! background: none; */
+    /*! background-color: var(--color-bg-1, #f7f7f7); */
+}
+
+form.form-container input::placeholder {
+    font-size: 15px;
+}
+
+form.form-container input:focus {
+    outline: none;
+}
+
+form.form-container button[type="submit"]:not(:disabled):hover {
+    background-color: #F36F20 !important;
+    color: var(--color-primary-text-button);
+}
+
+form.form-container button[type="submit"]:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
+.valid {
+    background-color: rgba(25, 230, 25, 0.45) !important;
+}
+
+.invalid {
+    background-color: rgba(230, 25, 25, 0.45) !important;
+}
+
+.invalid:focus {
+    border: 1px solid rgba(230, 25, 25, 0.45) !important;
+}
+
+.iti {
+    width: 100%;
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+    background: none;
+    /*! margin-top: 10px; */
+}
+.control  {
+    width: 100%;
+    display: flex;
+}
+
+button {
+ 
+}
+
+button span {
+  /*! color: #e60505 !important; */
+}
+
+
+button span:hover {
+  color: #ffffff !important;
+}
+
+.intgrtn-input {
+
+    width: 100% !important;
+    height: 45px !important;
+
+    border: 1px solid #9b9b9b !important;
+    border-radius: 5px !important;
+    padding-left: 35px !important;
+    color: #000000 !important;
+    margin-top: 10px;
+}
+
+.dsfgoioi {
+    width: 100%;
+    background: #318ae9;
+    margin-top: 12px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
